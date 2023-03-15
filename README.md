@@ -1,5 +1,7 @@
 # STM32F746 Discovery - LVGL Demo Port
 
+![Alt Text](images/STM32F7_LVGL_cp.jpg)
+
 ---
 
 ## Introduction
