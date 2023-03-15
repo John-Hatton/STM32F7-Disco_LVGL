@@ -95,7 +95,7 @@ static uint32_t session_mobile = 1000;
 void lv_demo_widgets(void)
 {
     if(LV_HOR_RES <= 320) disp_size = DISP_SMALL;
-    else if(LV_HOR_RES < 720) disp_size = DISP_MEDIUM;
+    else if(LV_HOR_RES < 720) disp_size = DISP_MEDIUM; //
     else disp_size = DISP_LARGE;
 
     font_large = LV_FONT_DEFAULT;
@@ -1478,7 +1478,7 @@ static void meter1_indic1_anim_cb(void * var, int32_t v)
     lv_label_set_text_fmt(label, "Revenue: %"LV_PRId32" %%", v);
 }
 
-static void meter1_indic2_anim_cb(void * var, int32_t v)
+ static void meter1_indic2_anim_cb(void * var, int32_t v)
 {
     lv_meter_set_indicator_end_value(meter1, var, v);
 
